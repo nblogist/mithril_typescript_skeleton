@@ -1,0 +1,22 @@
+{
+  "name": "new_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "start": "webpack src/index.ts --output bin/app.js -d --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
